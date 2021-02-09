@@ -1,3 +1,10 @@
+### Color Theme
+Dusty maroon #8C273A
+Soft slate #434D59
+Cream #F2BF91
+Cream coffee #BF815E
+Off-white #F2E4DC
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

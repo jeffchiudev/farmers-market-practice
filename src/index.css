@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#jumboBG {
+  background-image: url('img/headerbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.jumbotron {
+  min-height: 300px;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
