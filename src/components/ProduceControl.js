@@ -22,17 +22,17 @@ class ProduceControl extends React.Component {
     let currentlyVisibleState = null;
     let produceButtonText = null;
     if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <ProduceDisplay/>;
+      currentlyVisibleState = <ProduceMonth/>;
       produceButtonText = "Return to yearly calendar";
     } else {
-      currentlyVisibleState = <ProduceMonth/>
+      currentlyVisibleState = <ProduceDisplay/>
       produceButtonText = "View month's produce";
     }
     return (
-      <React.Component>
+      <React.Fragment>
         {currentlyVisibleState}
         <button onClick = {this.handleClick}>{produceButtonText}</button>
-      </React.Component>
+      </React.Fragment>
     );
   }
 }

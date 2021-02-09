@@ -2,6 +2,7 @@
 import React from 'react';
 import ScheduleDisplay from './ScheduleDisplay';
 import ScheduleDay from './ScheduleDay';
+import Schedule from './Schedule';
 
 class ScheduleControl extends React.Component {
 
@@ -14,7 +15,7 @@ class ScheduleControl extends React.Component {
 
   handleClick = () => {
     this.setState(prevState => ({
-      scheduleVisibleOnPage: !prev.State.scheduleVisibleOnPage
+      scheduleVisibleOnPage: !prevState.scheduleVisibleOnPage
     }));
   }
 
