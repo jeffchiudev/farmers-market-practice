@@ -27,8 +27,14 @@ class ScheduleControl extends React.Component {
       scheduleButtonText = "Return to weekly schedule";
     } else {
       currentlyVisibleState = <ScheduleDisplay />;
-      scheduleButtonText = "View Location"
+      scheduleButtonText = "View Hours & Locations";
     }
+    //if (this.state.//props.Monday)
+    // currentlyVisibleState =<ScheduleDay />;
+    //else {
+      //currentlyVisibleState = <ScheduleDisplay />;
+      //scheduleButtonText = "View Hours & Locations";
+    //}
     return (
       <React.Fragment>
         {currentlyVisibleState}

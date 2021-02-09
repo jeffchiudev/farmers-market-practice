@@ -5,7 +5,8 @@ function Schedule(props){
   return (
     <React.Fragment>
       <h3>{props.day}</h3>
-      <p>{props.location}, Booth: {props.booth}</p>
+      <p>Location: {props.location}</p>
+      <p>Booth: {props.booth}</p>
       <p>Hours: {props.hours}</p>
     </React.Fragment>
   );

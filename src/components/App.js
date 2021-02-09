@@ -9,8 +9,10 @@ function App() {
     <React.Fragment>
       <div class="container">
         <Header/>
-        <ScheduleControl/>
-        <ProduceControl/>
+        <div style={{textAlign: "center"}}>
+          <ScheduleControl/>
+          <ProduceControl/>
+        </div>
       </div>
     </React.Fragment>
   );

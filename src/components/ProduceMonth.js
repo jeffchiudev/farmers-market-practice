@@ -278,11 +278,16 @@ function ProduceMonth(){
       <hr/>
       {availableProduce.map((produce, index) =>
         <Produce month = {produce.month}
-          selection = {produce.selection}
+          selection = {produce.selection.map(e => e.concat(", "))}
           key={index}/>
       )}
     </React.Fragment>
   );
 }
+
+//<MonthProduce month={monthProduce.month}
+// selection={monthProduce.selection.map(e => e.concat(", "))}
+// key={index} />
+//or ToList(<li></li>)
 
 export default ProduceMonth;

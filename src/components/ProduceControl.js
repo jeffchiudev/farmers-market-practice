@@ -26,7 +26,7 @@ class ProduceControl extends React.Component {
       produceButtonText = "Return to yearly calendar";
     } else {
       currentlyVisibleState = <ProduceDisplay/>
-      produceButtonText = "View month's produce";
+      produceButtonText = "View Produce by Month";
     }
     return (
       <React.Fragment>
